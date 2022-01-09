@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<head>
+		<meta charset="utf-8" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div>
+			<header class="header">
+				<nav class="navbar">
+					<ul class="nav-menu">
+						<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contacts">Contacts</a>
+						</li>
+					</ul>
+
+					<div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+				</nav>
+
+				<h1>
+					Bahaa Youssof,<br />
+					Front-end developer
+				</h1>
+			</header>
+
+			<div class="container">
+				<section id="about">
+					<div class="about-image">
+						<img alt="Profile picture" src="images/person.jpg" />
+					</div>
+					<div class="about-text">
+						<h2>About me</h2>
+						<p>
+							Hi, I'm Bahaa Youssof, I've been a junior front-end developer for 1
+							month now.<br />
+							For me, programming is not just a job, it's a hobby.<br />
+							I'm open to new Knowledge, I like to study new technologies and apply
+							them in practice.<br />
+							<b>Skills: </b>HTML, CSS, JS, React.
+						</p>
+					</div>
+				</section>
+
+				<section id="portfolio">
+					<h2>Portfolio</h2>
+					<div class="portfolioContainer">
+						<div class="left">
+							<img class="port-image" src="images/project1.png" alt="Flashcards" /><br />
+
+							<button data-modal-target="#flashcardsWindow" class="open-window">
+								Flashcards
+							</button>
+
+							<div class="window" id="flashcardsWindow">
+								<div class="window-header">
+									<h2>Flashcards</h2>
+								</div>
+								<div class="window-body">
+									<p>
+										You can see the project at the following link:
+										<a
+											href="https://github.com/bahaayoussof/Flashcards"
+											target="_blank"
+											>flashcards</a
+										>
+									</p>
+									<p>
+										I did this project when I was studying the frontend on
+										HyperSkill. I created a web page with flip-down flash cards,
+										learned some HTML basics and learned that CSS can easily make a
+										beautiful design.
+									</p>
+									<button data-close-button class="close-button">Close</button>
+								</div>
+							</div>
+						</div>
+						<div class="center">
+							<img src="images/project2.png" alt="Virtual Piano" /><br />
+
+							<button data-modal-target="#virtualWindow" class="open-window">
+								Virtual Piano
+							</button>
+
+							<div class="window" id="virtualWindow">
+								<div class="window-header">
+									<h2>Virtual Piano</h2>
+								</div>
+								<div class="window-body">
+									<p>
+										You can see the project at the following link:
+										<a
+											href="https://github.com/bahaayoussof/virtual-piano"
+											target="_blank"
+											>Virtual Piano</a
+										>
+									</p>
+									<p>
+										I did this project when I was studying the frontend on
+										HyperSkill. I created a web page with virtual piano, learned some
+										HTML basics and learned that CSS can easily make a beautiful
+										design.
+									</p>
+									<button data-close-button class="close-button">Close</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="right">
+							<img src="images/project3.png" alt="SoundCloud Playlist" /><br />
+
+							<button data-modal-target="#playlistWindow" class="open-window">
+								Playlist
+							</button>
+
+							<div class="window" id="playlistWindow">
+								<div class="window-header">
+									<h2>SoundCloud Playlist</h2>
+								</div>
+								<div class="window-body">
+									<p>
+										You can see the project at the following link:
+										<a
+											href="https://bahaayoussof.github.io/soundCloudPlaylist/"
+											target="_blank"
+											>SoundCloud Playlist</a
+										>
+									</p>
+									<p>
+										I did this project when I was studying the frontend on One Month
+										JavaScript. I created a Soundcloud Playlist, learned some HTML
+										basics and learned that CSS and JS can easily make a beautiful
+										design.
+									</p>
+									<button data-close-button class="close-button">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<section id="contacts">
+				<h2>Contacts</h2>
+				<p>
+					You can contact me at <a href="#">bahaayoussof@gmail.com</a> <br />
+					or phone number <a href="#">(+20)1006997495</a>
+				</p>
+				<a href="https://github.com/bahaayoussof" target="_blank"
+					><img class="icon" src="images/github.svg" alt="Github"
+				/></a>
+				<a href="https://linkedin.com/in/bahaayoussof/" target="_blank"
+					><img class="icon" src="images/linkedin.svg" alt="LinkedIn"
+				/></a>
+				<a href="https://facebook.com/baha2youssof" target="_blank"
+					><img class="icon" src="images/facebook.svg" alt="Facebook"
+				/></a>
+				<a href="https://twitter.com/baha2youssof" target="_blank"
+					><img class="icon" src="images/twitter.svg" alt="Twitter"
+				/></a>
+				<a href="https://instagram.com/baha2youssof" target="_blank"
+					><img class="icon" src="images/instagram.svg" alt="Instagram"
+				/></a>
+			</section>
+
+			<footer class="footer">
+				<p>
+					Bahaa Youssof<br />
+					2021
+				</p>
+			</footer>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>

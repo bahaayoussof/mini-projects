@@ -1,0 +1,56 @@
+body {
+    background-color: #060;
+}
+
+.container {
+    width: max-content;
+    margin: 17% auto;
+    position: relative;
+}
+
+.white-keys kbd {
+    font-family: "Apple SD Gothic Neo", sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 35px;
+    border: 2px solid #888;
+    margin-left: -5px;
+    padding: 100px 5px 15px 5px;
+}
+
+.black-keys kbd {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    padding: 2.8rem 0 1rem 0;
+
+}
+
+.black-keys {
+    position: absolute;
+    top: 0;
+}
+
+.black-keys kbd:nth-child(1) {
+    margin-left: 1.8rem;
+}
+
+.black-keys kbd:nth-child(2) {
+    margin-left: 1rem;
+}
+
+.black-keys kbd:nth-child(3) {
+    margin-left: 3.8rem;
+}
+
+.black-keys kbd:nth-child(4) {
+    margin-left: 0.8rem;
+}
+
+.black-keys kbd:nth-child(5) {
+    margin-left: 0.8rem;
+}
